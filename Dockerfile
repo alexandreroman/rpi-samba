@@ -13,7 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-FROM sdhibit/rpi-raspbian:jessie
+FROM resin/rpi-raspbian:stretch
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y --no-install-recommends samba-common-bin samba
 
